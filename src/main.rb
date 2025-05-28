@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+require_relative 'Coche'
+
+a = Coche.new('AAA', 'Audi', 'Negro')
+
+puts a.marca
+
+a.marca = 'BMW'
+
+puts a.marca
