@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'procs'
 require_relative 'Coche'
 
 a = Coche.new('AAA', 'Audi', 'Negro')
