@@ -55,12 +55,13 @@ def ver_coches(propietarios)
   end
   quien = gets.chomp.to_i
 
+  puts "Coches de: #{propietarios[quien].nombre}"
   puts propietarios[quien].coches
 end
 
 #========================================================#
 #Bloque de ejecución
-begin
+loop do
   puts "\n1. Registrar vehículo"
   puts "2. Registrar propietario"
   puts "3. Asignar vehículo"
@@ -84,4 +85,4 @@ begin
     puts "Opción invalida"
   end
 
-end while opcion != -1
+end
